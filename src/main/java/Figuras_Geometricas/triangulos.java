@@ -12,6 +12,9 @@ public class triangulos extends Regulares{
         this.altura = altura;
     }
 
+    public triangulos() {
+    }
+
     public Double getBase() {
         return base;
     }
@@ -40,4 +43,7 @@ public class triangulos extends Regulares{
     public Double calcular_perimetro() {
         return tamaño_lado*3;
     }
+
+
+
 }
