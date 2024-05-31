@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fcf0e10-09a0-45ca-aca7-c7068676a6b9" name="Changes" comment="CUADRADO ANTHONY">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Figuras_Geometricas/Rectangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Figuras_Geometricas/Rectangulo.java" afterDir="false" />
-    </list>
+    <list default="true" id="4fcf0e10-09a0-45ca-aca7-c7068676a6b9" name="Changes" comment="CUADRADO ANTHONY" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,12 +26,12 @@
     &quot;assignee&quot;: &quot;PaulCabreraEPN&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/PaulCabreraEPN/FigurasGeometricas1_grupo1.git",
-    "accountId": "88535fed-5a28-489d-8fa6-18c8b047fc69"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/PaulCabreraEPN/FigurasGeometricas1_grupo1.git&quot;,
+    &quot;accountId&quot;: &quot;88535fed-5a28-489d-8fa6-18c8b047fc69&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
