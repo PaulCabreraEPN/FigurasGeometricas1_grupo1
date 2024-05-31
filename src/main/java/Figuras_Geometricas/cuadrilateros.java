@@ -13,4 +13,5 @@ public class cuadrilateros extends Regulares{
     public Double calcular_area() {
         return tamaño_lado * tamaño_lado;
     }
+
 }
