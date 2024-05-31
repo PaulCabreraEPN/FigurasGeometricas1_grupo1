@@ -14,4 +14,8 @@ public class cuadrilateros extends Regulares{
         return tamaño_lado * tamaño_lado;
     }
 
+    @Override
+    public Double calcular_perimetro() {
+        return tamaño_lado + tamaño_lado + tamaño_lado + tamaño_lado;
+    }
 }
