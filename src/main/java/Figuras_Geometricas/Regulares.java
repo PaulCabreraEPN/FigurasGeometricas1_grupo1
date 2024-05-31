@@ -9,5 +9,6 @@ public class Regulares extends figuras_2d{
         super(numero_lados, nombre, area, perimetro, tamaño_lado);
     }
 
-
+    public Regulares() {
+    }
 }
