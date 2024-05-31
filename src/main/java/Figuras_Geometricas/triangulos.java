@@ -12,8 +12,6 @@ public class triangulos extends Regulares{
         this.altura = altura;
     }
 
-    public triangulos() {
-    }
 
     public Double getBase() {
         return base;
