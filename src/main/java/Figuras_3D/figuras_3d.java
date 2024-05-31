@@ -14,4 +14,5 @@ public class figuras_3d extends figuras_geometricas {
         System.out.println("Nombre del figura 3d: " + nombre_figura_3d);
     }
 
+
 }
