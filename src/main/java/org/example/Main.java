@@ -7,7 +7,8 @@ public class Main {
         //hoa
         //adasjdqgodhlskahdoasdasd
 
-
+        figuras_geometricas fig = new figuras_geometricas();
+        fig.mostrar();
 
 
     }
