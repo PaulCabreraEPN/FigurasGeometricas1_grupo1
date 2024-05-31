@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fcf0e10-09a0-45ca-aca7-c7068676a6b9" name="Changes" comment="initial">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Figuras_Geometricas/triangulos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Figuras_Geometricas/Regulares.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Figuras_Geometricas/Regulares.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Figuras_Geometricas/figuras_2d.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +34,9 @@
     &quot;accountId&quot;: &quot;aa919c7b-eff2-4e62-bb47-4efe6372bdd3&quot;
   }
 }</component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 3
-}</component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
   <component name="ProjectId" id="2hF1kXXLVBAGpslZzLJKlsKQ9xL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -91,15 +90,7 @@
       <option name="project" value="LOCAL" />
       <updated>1717174815894</updated>
     </task>
-    <task id="LOCAL-00003" summary="Clase figuras 2D">
-      <option name="closed" value="true" />
-      <created>1717176030475</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1717176030475</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,7 +98,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial" />
-    <MESSAGE value="Clase figuras 2D" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clase figuras 2D" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial" />
   </component>
 </project>
