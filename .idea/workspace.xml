@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fcf0e10-09a0-45ca-aca7-c7068676a6b9" name="Changes" comment="Correccion de figuras Triangulos">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Figuras_Geometricas/n_lados.java" afterDir="false" />
+    <list default="true" id="4fcf0e10-09a0-45ca-aca7-c7068676a6b9" name="Changes" comment="Clase n_lados">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717194716191</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Clase n_lados">
+      <option name="closed" value="true" />
+      <created>1717195847248</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1717195847248</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +169,7 @@
     <MESSAGE value="initial" />
     <MESSAGE value="CUADRADO ANTHONY" />
     <MESSAGE value="Correccion de figuras Triangulos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correccion de figuras Triangulos" />
+    <MESSAGE value="Clase n_lados" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clase n_lados" />
   </component>
 </project>
