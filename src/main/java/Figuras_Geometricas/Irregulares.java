@@ -4,4 +4,6 @@ public class Irregulares {
     double angulos_internos;
 
 
+
+
 }
