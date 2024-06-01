@@ -6,7 +6,7 @@ public class cilindro_3d extends figuras_3d{
     double altura;
 
     public cilindro_3d(double radio,double altura) {
-        super("Cilindro", 2);
+        super("Cilindro", 3);
         this.radio = radio;
         this.pi = 3.14159265358979323846;
         this.altura = altura;
