@@ -1,5 +1,4 @@
-package Figuras_3D;
-
+package Figuras_Geometricas;
 public class esfera_3d extends figuras_3d{
 
     double radio;
@@ -11,12 +10,14 @@ public class esfera_3d extends figuras_3d{
         this.pi = 3.14159265358979323846;
     }
 
-    private double calcular_area() {
+    @Override
+    public double calcular_area() {
         double area = 4 * pi * radio * radio;
         return area;
     }
 
-    private double calcular_volumen() {
+    @Override
+    public double calcular_volumen() {
         double volumen = (4.0/3.0)* pi * (radio * radio *radio);
         return volumen;
     }

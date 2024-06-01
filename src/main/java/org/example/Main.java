@@ -1,8 +1,9 @@
 package org.example;
-import Figuras_Geometricas.figuras_geometricas;
-import Figuras_3D.esfera_3d;
-import Figuras_3D.cilindro_3d;
-import Figuras_3D.cubo_3d;
+import Figuras_Geometricas.esfera_3d;
+import Figuras_Geometricas.cilindro_3d;
+import Figuras_Geometricas.cubo_3d;
+import Figuras_Geometricas.prisma_3d;
+import Figuras_Geometricas.piramide_3d;
 
 public class Main {
     public static void main(String[] args) {
@@ -17,6 +18,11 @@ public class Main {
 
         cubo_3d cubo3d=new cubo_3d(17);
         cubo3d.mostrar();
+
+        prisma_3d prisma3d=new prisma_3d(4,12,3);
+        prisma3d.mostrar();
+        piramide_3d piramide3d=new piramide_3d(6,10,20);
+        piramide3d.mostrar();
 
     }
 }

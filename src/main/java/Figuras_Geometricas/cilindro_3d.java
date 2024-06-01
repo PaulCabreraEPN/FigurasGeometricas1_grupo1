@@ -1,4 +1,4 @@
-package Figuras_3D;
+package Figuras_Geometricas;
 
 public class cilindro_3d extends figuras_3d{
     double radio;
@@ -12,12 +12,14 @@ public class cilindro_3d extends figuras_3d{
         this.altura = altura;
     }
 
-    private double calcular_area(){
+    @Override
+    public double calcular_area(){
         double area=2*pi*radio*(radio+altura);
         return area;
     }
 
-    private double calcular_volumen(){
+    @Override
+    public double calcular_volumen(){
         double volumen= pi * (radio*radio) * altura;
         return volumen;
     }

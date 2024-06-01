@@ -1,4 +1,4 @@
-package Figuras_3D;
+package Figuras_Geometricas;
 
 public class cubo_3d extends figuras_3d{
     double valor_lado;
@@ -8,12 +8,14 @@ public class cubo_3d extends figuras_3d{
         this.valor_lado = valor_lado;
     }
 
-    private double calcular_area(){
+    @Override
+    public double calcular_area(){
         double area= 6*(valor_lado*valor_lado);
         return area;
     }
 
-    private double calcular_volumen(){
+    @Override
+    public double calcular_volumen(){
         double volumen= valor_lado*valor_lado*valor_lado;
         return volumen;
     }
