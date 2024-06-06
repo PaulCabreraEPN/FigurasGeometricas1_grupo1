@@ -6,8 +6,6 @@ import Figuras_Geometricas.cubo_3d;
 import Figuras_Geometricas.prisma_3d;
 import Figuras_Geometricas.piramide_3d;
 import Figuras_Geometricas.cono_3d;
-import Figuras_Geometricas.n_lados;
-
 
 
 public class Main {
@@ -100,6 +98,19 @@ public class Main {
                                     cono_3d figura5=new cono_3d(altura3,radio3,apotema2);
                                     figura5.mostrar();
                                     break;
+                                case 6:
+                                    double altura4;
+                                    System.out.println("Ingrese el valor del altura: ");
+                                    altura4 = sc.nextDouble();
+                                    double base4;
+                                    System.out.println("Ingrese el valor del base: ");
+                                    base4 = sc.nextDouble();
+                                    double profundidad;
+                                    System.out.println("Ingrese el valor del profundidad: ");
+                                    profundidad = sc.nextDouble();
+                                    prisma_3d figura6=new prisma_3d(base4,altura4,profundidad);
+                                    figura6.mostrar();
+                                    break;
 
 
 
@@ -114,15 +125,6 @@ public class Main {
 
         }while(opcion<2);
 
-
-
-        n_lados ejemplo=new n_lados();
-        ejemplo.setNumero_lados(5);
-        ejemplo.setApotema(12.0);
-        ejemplo.setTamaño_lado(10.0);
-        System.out.println("N LADOS");
-        System.out.println(ejemplo.calcular_perimetro());
-        System.out.println(ejemplo.calcular_area());
 
 
     }
