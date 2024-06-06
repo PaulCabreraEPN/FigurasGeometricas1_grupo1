@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fcf0e10-09a0-45ca-aca7-c7068676a6b9" name="Changes" comment="Adicion del triangulos y circulos a la main">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Figuras_Geometricas/figuras_geometricas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Figuras_Geometricas/figuras_geometricas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,12 +28,12 @@
     &quot;assignee&quot;: &quot;PaulCabreraEPN&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/PaulCabreraEPN/FigurasGeometricas1_grupo1.git&quot;,
-    &quot;accountId&quot;: &quot;c1815467-6dae-430a-92b0-49607a3c7667&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/PaulCabreraEPN/FigurasGeometricas1_grupo1.git",
+    "accountId": "b6bfbf79-46ab-4a9d-920e-6e90060901aa"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>

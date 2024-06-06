@@ -8,6 +8,7 @@ import Figuras_Geometricas.piramide_3d;
 import Figuras_Geometricas.cono_3d;
 import Figuras_Geometricas.triangulos;
 import Figuras_Geometricas.circulos;
+import Figuras_Geometricas.n_lados;
 
 public class Main {
     public static void main(String[] args) {
@@ -58,6 +59,16 @@ public class Main {
                                         case 3:
                                             System.out.println("Ingrese el numero de lados");
                                             int lados = sc.nextInt();
+                                            System.out.println("Ingrese le valor de la apotema");
+                                            double apotema = sc.nextDouble();
+                                            System.out.println("Ingrese le valor del lado");
+                                            double tamañoLado = sc.nextDouble();
+                                            n_lados figuraN = new n_lados();
+                                            figuraN.setNumero_lados(lados);
+                                            figuraN.setApotema(apotema);
+                                            figuraN.setTamaño_lado(tamañoLado);
+                                            figuraN.mostrar();
+
 
 
                                     }
