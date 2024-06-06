@@ -90,6 +90,7 @@ public class Main {
 
                                     }
                                 case 2:
+                                    System.out.println("Aqui faltan irregulares");
 
 
 
