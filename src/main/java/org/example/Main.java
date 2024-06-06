@@ -40,6 +40,7 @@ public class Main {
                                     System.out.println("1) Triangulos");
                                     System.out.println("2) Circulos");
                                     System.out.println("3) # de Lados");
+                                    System.out.println("4) Cuadrilateros");
                                     int tiporegular=sc.nextInt();
                                     switch (tiporegular) {
                                         case 1:
@@ -68,10 +69,29 @@ public class Main {
                                             figuraN.setApotema(apotema);
                                             figuraN.setTamaño_lado(tamañoLado);
                                             figuraN.mostrar();
+                                            break;
+                                        case 4:
+
+                                            int lados2 = 4;
+                                            System.out.println("Ingrese le valor de la apotema");
+                                            double apotema2 = sc.nextDouble();
+                                            System.out.println("Ingrese le valor del lado");
+                                            double tamañoLado2 = sc.nextDouble();
+                                            n_lados figuraN2 = new n_lados();
+                                            figuraN2.setNumero_lados(lados2);
+                                            figuraN2.setApotema(apotema2);
+                                            figuraN2.setTamaño_lado(tamañoLado2);
+                                            figuraN2.mostrar();
+                                            break;
+
+
 
 
 
                                     }
+                                case 2:
+
+
 
                             }
                             break;

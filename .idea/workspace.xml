@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fcf0e10-09a0-45ca-aca7-c7068676a6b9" name="Changes" comment="MAIN N_LADOS">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Figuras_Geometricas/n_lados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Figuras_Geometricas/n_lados.java" afterDir="false" />
+    <list default="true" id="4fcf0e10-09a0-45ca-aca7-c7068676a6b9" name="Changes" comment="Adicion del triangulos y circulos a la main">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Figuras_Geometricas/Irregulares.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Figuras_Geometricas/Irregulares.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,12 +30,12 @@
     &quot;assignee&quot;: &quot;PaulCabreraEPN&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/PaulCabreraEPN/FigurasGeometricas1_grupo1.git",
-    "accountId": "b6bfbf79-46ab-4a9d-920e-6e90060901aa"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/PaulCabreraEPN/FigurasGeometricas1_grupo1.git&quot;,
+    &quot;accountId&quot;: &quot;b6bfbf79-46ab-4a9d-920e-6e90060901aa&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -189,15 +191,7 @@
       <option name="project" value="LOCAL" />
       <updated>1717645741938</updated>
     </task>
-    <task id="LOCAL-00014" summary="MAIN N_LADOS">
-      <option name="closed" value="true" />
-      <created>1717646526484</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1717646526484</updated>
-    </task>
-    <option name="localTasksCounter" value="15" />
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,7 +216,6 @@
     <MESSAGE value="Agrego piramide_3d" />
     <MESSAGE value="Agrego parte del menu junto a el uso de figuras 3d" />
     <MESSAGE value="Adicion del triangulos y circulos a la main" />
-    <MESSAGE value="MAIN N_LADOS" />
-    <option name="LAST_COMMIT_MESSAGE" value="MAIN N_LADOS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicion del triangulos y circulos a la main" />
   </component>
 </project>

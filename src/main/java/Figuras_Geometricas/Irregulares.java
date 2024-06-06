@@ -6,6 +6,7 @@ public class Irregulares extends figuras_2d {
     public Irregulares() {
     }
 
+
     public Irregulares(int numero_lados, String nombre, Double area, Double perimetro, Double tamaño_lado, double angulos_internos) {
         super(numero_lados, nombre, area, perimetro, tamaño_lado);
         this.angulos_internos = angulos_internos;
