@@ -54,6 +54,12 @@ public class Main {
                                             double radio4 = sc.nextDouble();
                                             circulos figura4 = new circulos(radio4);
                                             figura4.mostrar();
+                                            break;
+                                        case 3:
+                                            System.out.println("Ingrese el numero de lados");
+                                            int lados = sc.nextInt();
+
+
                                     }
 
                             }
@@ -150,7 +156,7 @@ public class Main {
             }
 
 
-        }while(opcion<2);
+        }while(opcion<3);
 
 
 
