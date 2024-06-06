@@ -1,8 +1,13 @@
 package Figuras_Geometricas;
+import java.util.Scanner;
 public class esfera_3d extends figuras_3d{
+    Scanner sc = new Scanner(System.in);
 
     double radio;
     double pi;
+
+    public esfera_3d() {
+    }
 
     public esfera_3d(double radio) {
         super("Esfera",0);
@@ -21,6 +26,7 @@ public class esfera_3d extends figuras_3d{
         double volumen = (4.0/3.0)* pi * (radio * radio *radio);
         return volumen;
     }
+
 
     @Override
     public void mostrar() {

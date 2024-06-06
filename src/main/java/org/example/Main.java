@@ -1,4 +1,5 @@
 package org.example;
+import java.util.Scanner;
 import Figuras_Geometricas.esfera_3d;
 import Figuras_Geometricas.cilindro_3d;
 import Figuras_Geometricas.cubo_3d;
@@ -8,27 +9,112 @@ import Figuras_Geometricas.cono_3d;
 import Figuras_Geometricas.n_lados;
 
 
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        int opcion;
+        Scanner sc = new Scanner(System.in);
+
+        do {
+            System.out.println("Bienvenido");
+            System.out.println("Menu");
+            System.out.println("1)Figuras Geometricas");
+            System.out.println("2) Salir");
+            opcion = sc.nextInt();
+            if (opcion == 1) {
+
+                    int dimension;
+                    System.out.println("Que clase de figura desea: ");
+                    System.out.println(" 1) 2D");
+                    System.out.println(" 2) 3D");
+                    dimension = sc.nextInt();
+                    switch (dimension) {
+                        case 1:
+                            System.out.println("Disponemos de: ");
+                            break;
+                        case 2:
+                            int tipo;
+                            System.out.println("Disponemos de: ");
+                            System.out.println("1) Esfera");
+                            System.out.println("2) Cilindro");
+                            System.out.println("3) Cubo");
+                            System.out.println("4) Piramide");
+                            System.out.println("5) Cono");
+                            tipo = sc.nextInt();
+                            switch (tipo) {
+                                case 1:
+                                    double radio;
+                                    System.out.println("Ingrese el radio: ");
+                                    radio = sc.nextDouble();
+                                    esfera_3d figura=new esfera_3d(radio);
+                                    figura.mostrar();
+                                    opcion--;
+                                    break;
+
+                                case 2:
+                                    double radio2;
+                                    System.out.println("Ingrese el radio: ");
+                                    radio2 = sc.nextDouble();
+                                    double altura;
+                                    System.out.println("Ingrese el altura: ");
+                                    altura = sc.nextDouble();
+                                    cilindro_3d figura2=new cilindro_3d(radio2,altura);
+                                    figura2.mostrar();
+                                    opcion--;
+                                    break;
 
 
-        esfera_3d esfera3d= new esfera_3d(60);
-        esfera3d.mostrar();
+                                case 3:
+                                    double lado;
+                                    System.out.println("Ingrese el valor del lado: ");
+                                    lado = sc.nextDouble();
+                                    cubo_3d figura3=new cubo_3d(lado);
+                                    figura3.mostrar();
+                                    break;
 
-        cilindro_3d cilindro3d=new cilindro_3d(10,15);
-        cilindro3d.mostrar();
+                                case 4:
+                                    double lado2;
+                                    System.out.println("Ingrese el valor del lado: ");
+                                    lado2 = sc.nextDouble();
+                                    double altura2;
+                                    System.out.println("Ingrese el valor del altura: ");
+                                    altura2 = sc.nextDouble();
+                                    double apotema;
+                                    System.out.println("Ingrese el apotema: ");
+                                    apotema = sc.nextDouble();
+                                    piramide_3d figura4=new piramide_3d(altura2,lado2,apotema);
+                                    figura4.mostrar();
+                                    break;
 
-        cubo_3d cubo3d=new cubo_3d(17);
-        cubo3d.mostrar();
+                                case 5:
+                                    double altura3;
+                                    System.out.println("Ingrese el valor del altura: ");
+                                    altura3 = sc.nextDouble();
+                                    double apotema2;
+                                    System.out.println("Ingrese el valor del apotema: ");
+                                    apotema2 = sc.nextDouble();
+                                    double radio3;
+                                    System.out.println("Ingrese el radio: ");
+                                    radio3 = sc.nextDouble();
+                                    cono_3d figura5=new cono_3d(altura3,radio3,apotema2);
+                                    figura5.mostrar();
+                                    break;
 
-        prisma_3d prisma3d=new prisma_3d(4,12,3);
-        prisma3d.mostrar();
-        piramide_3d piramide3d=new piramide_3d(6,10,20);
-        piramide3d.mostrar();
 
-        cono_3d cono3d= new cono_3d(13,5,17);
-        cono3d.mostrar();
+
+                            }
+                    }
+
+
+
+
+            }
+
+
+        }while(opcion<2);
+
+
 
         n_lados ejemplo=new n_lados();
         ejemplo.setNumero_lados(5);
