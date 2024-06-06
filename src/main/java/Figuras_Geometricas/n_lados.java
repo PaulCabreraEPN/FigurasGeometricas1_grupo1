@@ -31,6 +31,6 @@ public class n_lados extends Regulares{
 
     @Override
     public Double calcular_area() {
-        return (perimetro * apotema)/2;
+        return (calcular_perimetro() * apotema)/2;
     }
 }
