@@ -5,6 +5,8 @@ import Figuras_Geometricas.cubo_3d;
 import Figuras_Geometricas.prisma_3d;
 import Figuras_Geometricas.piramide_3d;
 import Figuras_Geometricas.cono_3d;
+import Figuras_Geometricas.n_lados;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -27,6 +29,15 @@ public class Main {
 
         cono_3d cono3d= new cono_3d(13,5,17);
         cono3d.mostrar();
+
+        n_lados ejemplo=new n_lados();
+        ejemplo.setNumero_lados(5);
+        ejemplo.setApotema(12.0);
+        ejemplo.setTamaño_lado(10.0);
+        System.out.println("N LADOS");
+        System.out.println(ejemplo.calcular_perimetro());
+        System.out.println(ejemplo.calcular_area());
+
 
     }
 }
