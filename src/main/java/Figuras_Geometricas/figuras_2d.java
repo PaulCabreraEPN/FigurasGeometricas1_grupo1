@@ -9,6 +9,12 @@ public class figuras_2d extends figuras_geometricas {
     public figuras_2d() {
     }
 
+    public figuras_2d(Double tamaño_lado, Double perimetro, Double area) {
+        this.tamaño_lado = tamaño_lado;
+        this.perimetro = perimetro;
+        this.area = area;
+    }
+
     public figuras_2d(int numero_lados, String nombre, Double area, Double perimetro, Double tamaño_lado) {
         super(numero_lados, nombre);
         this.area = area;

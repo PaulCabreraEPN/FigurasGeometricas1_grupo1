@@ -7,6 +7,7 @@ public class figuras_geometricas {
     public figuras_geometricas() {
     }
 
+
     public figuras_geometricas(int numero_lados, String nombre) {
         this.numero_lados = numero_lados;
         this.nombre = nombre;

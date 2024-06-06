@@ -6,9 +6,8 @@ import Figuras_Geometricas.cubo_3d;
 import Figuras_Geometricas.prisma_3d;
 import Figuras_Geometricas.piramide_3d;
 import Figuras_Geometricas.cono_3d;
-import Figuras_Geometricas.n_lados;
-
-
+import Figuras_Geometricas.triangulos;
+import Figuras_Geometricas.circulos;
 
 public class Main {
     public static void main(String[] args) {
@@ -32,6 +31,38 @@ public class Main {
                     switch (dimension) {
                         case 1:
                             System.out.println("Disponemos de: ");
+                            System.out.println("1) Regulares");
+                            System.out.println("2) Irregulares");
+                            int regula = sc.nextInt();
+                            switch (regula) {
+                                case 1:
+                                    System.out.println("1) Triangulos");
+                                    System.out.println("2) Circulos");
+                                    System.out.println("3) # de Lados");
+                                    int tiporegular=sc.nextInt();
+                                    switch (tiporegular) {
+                                        case 1:
+                                            System.out.println("Ingrese la altura: ");
+                                            double altura7 = sc.nextDouble();
+                                            System.out.println("Ingrese la base: ");
+                                            double base7 = sc.nextDouble();
+                                            triangulos figura7 = new triangulos(altura7, base7);
+                                            figura7.mostrar();
+                                            break;
+                                        case 2:
+                                            System.out.println("Ingrese el radio: ");
+                                            double radio4 = sc.nextDouble();
+                                            circulos figura4 = new circulos(radio4);
+                                            figura4.mostrar();
+                                            break;
+                                        case 3:
+                                            System.out.println("Ingrese el numero de lados");
+                                            int lados = sc.nextInt();
+
+
+                                    }
+
+                            }
                             break;
                         case 2:
                             int tipo;
@@ -100,6 +131,19 @@ public class Main {
                                     cono_3d figura5=new cono_3d(altura3,radio3,apotema2);
                                     figura5.mostrar();
                                     break;
+                                case 6:
+                                    double altura4;
+                                    System.out.println("Ingrese el valor del altura: ");
+                                    altura4 = sc.nextDouble();
+                                    double base4;
+                                    System.out.println("Ingrese el valor del base: ");
+                                    base4 = sc.nextDouble();
+                                    double profundidad;
+                                    System.out.println("Ingrese el valor del profundidad: ");
+                                    profundidad = sc.nextDouble();
+                                    prisma_3d figura6=new prisma_3d(base4,altura4,profundidad);
+                                    figura6.mostrar();
+                                    break;
 
 
 
@@ -112,17 +156,8 @@ public class Main {
             }
 
 
-        }while(opcion<2);
+        }while(opcion<3);
 
-
-
-        n_lados ejemplo=new n_lados();
-        ejemplo.setNumero_lados(5);
-        ejemplo.setApotema(12.0);
-        ejemplo.setTamaño_lado(10.0);
-        System.out.println("N LADOS");
-        System.out.println(ejemplo.calcular_perimetro());
-        System.out.println(ejemplo.calcular_area());
 
 
     }

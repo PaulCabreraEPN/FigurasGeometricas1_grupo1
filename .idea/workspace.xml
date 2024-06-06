@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fcf0e10-09a0-45ca-aca7-c7068676a6b9" name="Changes" comment="Clase n_lados" />
+    <list default="true" id="4fcf0e10-09a0-45ca-aca7-c7068676a6b9" name="Changes" comment="Adicion del triangulos y circulos a la main">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Figuras_Geometricas/figuras_geometricas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Figuras_Geometricas/figuras_geometricas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +82,9 @@
       <workItem from="1717193071490" duration="713000" />
       <workItem from="1717253781112" duration="5801000" />
       <workItem from="1717292730244" duration="1376000" />
-      <workItem from="1717377424281" duration="3205000" />
+      <workItem from="1717377424281" duration="3301000" />
+      <workItem from="1717625828051" duration="3910000" />
+      <workItem from="1717642495186" duration="2745000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <option name="closed" value="true" />
@@ -161,15 +166,31 @@
       <option name="project" value="LOCAL" />
       <updated>1717273883193</updated>
     </task>
-    <task id="LOCAL-00011" summary="Clase n_lados">
+    <task id="LOCAL-00011" summary="Agrego parte del menu junto a el uso de figuras 3d">
       <option name="closed" value="true" />
-      <created>1717643939554</created>
+      <created>1717380750383</created>
       <option name="number" value="00011" />
       <option name="presentableId" value="LOCAL-00011" />
       <option name="project" value="LOCAL" />
-      <updated>1717643939554</updated>
+      <updated>1717380750383</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Agrego parte del menu junto a el uso de figuras 3d">
+      <option name="closed" value="true" />
+      <created>1717645465540</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1717645465540</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Adicion del triangulos y circulos a la main">
+      <option name="closed" value="true" />
+      <created>1717645741938</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1717645741938</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,17 +213,8 @@
     <MESSAGE value="Agrego cilindro_3d" />
     <MESSAGE value="Agrego cubo_3d" />
     <MESSAGE value="Agrego piramide_3d" />
-    <MESSAGE value="Clase n_lados" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clase n_lados" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.NullPointerException" package="java.lang" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Agrego parte del menu junto a el uso de figuras 3d" />
+    <MESSAGE value="Adicion del triangulos y circulos a la main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicion del triangulos y circulos a la main" />
   </component>
 </project>
