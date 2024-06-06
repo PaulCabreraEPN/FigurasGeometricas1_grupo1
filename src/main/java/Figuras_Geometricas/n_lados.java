@@ -33,4 +33,14 @@ public class n_lados extends Regulares{
     public Double calcular_area() {
         return (calcular_perimetro() * apotema)/2;
     }
+    @Override
+    public void mostrar(){
+        super.mostrar();
+        System.out.println("Apotema: " + apotema);
+        System.out.println("Tamaño de los lados: " + getTamaño_lado());
+        System.out.println("Area: " + calcular_area());
+        System.out.println("Perimetro: " + calcular_perimetro());
+    }
+
+
 }
