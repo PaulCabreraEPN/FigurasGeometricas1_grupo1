@@ -1,14 +1,7 @@
 package org.example;
 import java.util.Scanner;
-import Figuras_Geometricas.esfera_3d;
-import Figuras_Geometricas.cilindro_3d;
-import Figuras_Geometricas.cubo_3d;
-import Figuras_Geometricas.prisma_3d;
-import Figuras_Geometricas.piramide_3d;
-import Figuras_Geometricas.cono_3d;
-import Figuras_Geometricas.triangulos;
-import Figuras_Geometricas.circulos;
-import Figuras_Geometricas.n_lados;
+
+import Figuras_Geometricas.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -90,9 +83,16 @@ public class Main {
 
                                     }
                                 case 2:
-                                    System.out.println("Aqui faltan irregulares");
+                                    Irregulares irr = new Irregulares();
+                                    System.out.print("Ingrese el numero de lados: ");
+                                    int lados = sc.nextInt();
+                                    System.out.print("Ingrese el tamanio de los lados: ");
+                                    double tamanio = sc.nextDouble();
 
-
+                                    irr.setNumero_lados(lados);
+                                    irr.setTamaño_lado(tamanio);
+                                    double perimetro = irr.calcular_perimetro();
+                                    System.out.println("El perimetro de la fig. irregular es:" +perimetro);
 
                             }
                             break;

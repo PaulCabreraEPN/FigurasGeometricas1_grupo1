@@ -15,7 +15,7 @@ public class Irregulares extends figuras_2d {
 
     @Override
     public Double calcular_perimetro() {
-        perimetro = numero_lados * tamaño_lado;
-        return perimetro;
+
+        return numero_lados * tamaño_lado;
     }
 }
